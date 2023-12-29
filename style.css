@@ -1,9 +1,9 @@
 main{
     background-image: url('bg.jpg');
-    border-bottom: 20px  solid grey;
+    border-bottom: 10px  solid rgb(46, 44, 44);
     width:100%;
     background-position: flex-start center;
-    background-size: max(1500px,130vw);
+    background: cover;
     background-repeat: no-repeat;
     position:relative;
     top:0;
@@ -103,23 +103,26 @@ main{
 .sec2{
     display: flex;
     position: relative;
-
-    background-color: black;
+     background-color: black;
     height: 600px;
     color:white;
-    border-bottom: 40px;
+    border-bottom: 10px  solid rgb(46, 44, 44);
 }
 .video{
+    
     width: 360px;
     position:absolute;
-    left:793px;
-    top: 99px;
+    left:777px;
+    top: 70px;
+}
+.firstdiv{
+    padding:64px;
 }
 .tv{
     width:36vw;
     position:relative;
-    left:240px;
-    top: 20px;
+    z-index: 10;
+    margin-left:20%;
 }
 .enj{
     font-family: Segoe UI Black;
@@ -135,4 +138,221 @@ main{
     top: 50px;
     left: 140px;
 
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:480px;
+    margin-left: 23%;
+}
+.m1{
+    font-family: Segoe UI Black;
+    font-size: 50px;
+    color:white;
+    position: relative;
+    left: 140px;
+    top: 70px; 
+    text-wrap: wrap;
+}
+.m2{
+    font-family: Montserrat;
+    position:relative ;
+    top: 50px;
+    left: 140px;
+    text-wrap: wrap;
+}
+.video2{
+    width: 23%;
+    position:absolute;
+    left:820px;
+    top: 50px;
+}
+.mac{
+    width:75%;
+    position:relative;
+    left:240px;
+    top: 20px;
+}
+.enj2{
+    font-family: Segoe UI Black;
+    font-size: 50px;
+    color:white;
+    position: relative;
+    left: 140px;
+    top: 70px; 
+    text-align: start;
+}
+.watc2{
+    font-family: Montserrat;
+    position:relative ;
+    top: 50px;
+    left: 140px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+
+@media screen and (max-width:1300px) {
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: black;
+        height: 1700px;
+        width:340%;
+        color:white;
+        border-bottom: 10px  solid grey;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .firstdiv{
+        text-align: center;
+    }
+    .vid{
+
+    }
+    .enj{
+        font-size: 110px;
+        justify-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        left:0;
+    }
+    .watc{
+        font-size: 50px;
+        text-wrap:wrap ;
+        left:0;
+    }
+    .tv{
+        width: 1000px;
+       left: -20%;
+    }
+    .video{
+        width:800px;
+        margin-left: 0;
+        left:22%;
+        top:55%;
+    }
+    .mobile{
+        width: 1100px;
+        left:400%;
+        top:10%;
+        margin-left: 0%;
+
+    
+    }
+    .m1{
+        font-size: 110px;
+        justify-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        left:0%;
+    }
+    .m2{
+        font-size: 50px;
+        text-wrap:wrap ;
+        left:0;
+        text-align: center;
+    }
+    main{
+        height: 1600px;
+        width:340%;
+        background-size: cover;
+        
+    }
+    .video2{
+        width:790px;
+        left:22%;
+        top:42%;
+    }
+    .mac{
+        width: 1300px;
+       left: 0%; 
+    }
+    .enj2{
+        font-size: 110px;
+        justify-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        left:0;
+    }
+    .watc2{
+        font-size: 50px;
+        text-wrap:wrap ;
+        left:0;
+        text-align: center;
+
+    }
+    .headline{
+        padding: 50px;
+    }
+    .H1{
+        margin-left: 0;
+        left:0;
+        text-align: center;
+        font-size: 100px;
+        text-wrap: wrap;
+    }
+    .H2{
+        margin-left: 0;
+        left:0;
+        text-align: center;
+        font-size: 60px;
+        text-wrap: wrap;
+    }
+    .towatch{
+        margin-left: 0;
+        left:0;
+        text-align: center;
+        font-size: 50px;
+        text-wrap: wrap;
+    }
+    .input{
+        padding:50px;
+        top:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     
+        margin-left: 0;
+    }
+    .inputf{
+        width: 1000px;
+        height: 150px;
+        position: relative;
+        align-self: center;
+        left: -200px;
+        font-size: 50px;
+        border-radius: 10px;
+    }
+    .fsignin{
+        height: 130px;
+        width: 600px;
+        font-size: 60px;
+        border-radius: 10px;
+    }
+    .logo{
+        width: 300px;
+    }
+    .listd{
+        width: 200px;
+        height: 100px;
+        font-size: 40px;
+        position: relative;
+        left:-15%;
+    }
+    .sign{
+        width: 170px;
+        height: 100px;
+        font-size: 40px;
+        position: relative;
+        left:-15%;
+    }
+    
 }
