@@ -358,70 +358,63 @@ main{
     }
     
 }
-@media (max-width:400px) and (max-height:700px) {
+@media (min-width:347px) and (max-width:400px){
     main{
-        height: 1900px;
+        width:400%;
+        height:2000px;
+
     }
     .listd{
-        left:-15%;
-        
-        border-radius: 9px;
+        left:-20%;
     }
     .sign{
-        width: 150px;
-        border-radius: 9px;
-    }
-    
-}
-@media (max-width:410px) and (max-height:800px) {
-    main{
-        height: 1900px;
-    }
-    .listd{
-        left:-15%;
-        
-        border-radius: 9px;
-    }
-    .sign{
-        width: 150px;
-        border-radius: 9px;
-    }
-    
-}
-@media (max-width:390px) and (max-height:700px) {
-    main{
-        height: 1900px;
-        width: 360%;
-    }
-    .listd{
-        left:-15%;
-        
-        border-radius: 9px;
-    }
-    .sign{
-        width: 150px;
-        border-radius: 9px;
-    }
-    
-}
-@media (max-width:380px) and (max-height:700px) {
-    main{
-        height: 1900px;
-        width: 360%;
-    }
-    .listd{
-        left:-15%;
-        
-        border-radius: 9px;
-    }
-    .sign{
-        width: 150px;
-        border-radius: 9px;
+        margin:0 0 0 0;
     }
     .sec2{
-        width: 360%;  
+        height: 2000px;
+        width:400%;
     }
-    
+    .logo{}
 }
+@media (min-width:290px) and (max-width:346px){
+    main{
+        width: 450%;
+    }
+    .sec2{
+        width:450%;
+    }
+  .sub{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:3%;
+  }
+  .listd{
+    left: -50%;
 
-
+  }
+  .sign{
+    left: -45%;
+  }
+  .logo{
+    width: 366px;
+  }
+}
+@media (min-width:400px) and (max-width:800px){
+    .sub{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top:3%;
+      }
+      .listd{
+        left: -50%;
+    
+      }
+      .sign{
+        left: -45%;
+      }
+      .logo{
+        width: 366px;
+      }
+}
